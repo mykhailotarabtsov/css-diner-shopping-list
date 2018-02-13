@@ -1,0 +1,105 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	height: 100%;
+	background-color: #3b3f45;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #eb7e7f;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header {
+	background-color: #4a4f56;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 20px 0;
+}
+
+.main {
+	background-color: #3b3f45;
+	width: 100%;
+	padding: 20px 0 40px;
+}
+
+.css-dinner-wrap {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.css-diner-item {
+	padding: 5px 10px;
+	color: #ffffff;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+
+.css-diner-item label {
+	display: block;
+	cursor: pointer;
+}
+
+.css-diner-item:nth-child(1) label span:after {
+	content: 'Перше завдання';
+	margin-left: 10px;
+	font-size: 0.7em;
+}
+
+.css-diner-item:nth-child(2) label span:after {
+	content: 'Друге завдання';
+	margin-left: 10px;
+	font-size: 0.7em;
+}
+
+.css-diner-item:nth-child(3) label span:after {
+	content: 'Третє завдання';
+	margin-left: 10px;
+	font-size: 0.7em;
+}
+
+.css-diner-item:nth-child(even) {
+	background-color: #7a7593;
+}
+
+.css-diner-item:nth-child(odd) {
+	background-color: #88839e;
+}
+
+.css-diner-item:hover {
+	background-color: #625e77;
+	border-top: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;
+}
+
+.css-diner-item:active {
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	background-color: #eb7e7f;
+}
+
+input[type="checkbox"]:checked + span {
+	text-decoration: line-through;
+	color: #a3a0b5;
+}
+
+.css-diner-btn {
+	display: block;
+	width: 50%;
+	margin: 40px auto 0;
+	padding: 10px 0;
+	font-size: 1.7em;
+	color: #eb7e7f;
+	background-color: #4a4f56;
+	border: none;
+	cursor: pointer;
+}
